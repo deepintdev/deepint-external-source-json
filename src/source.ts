@@ -63,7 +63,7 @@ export class DataSource {
         }
 
         if (dir === "desc") {
-            return this.instances.sort((a, b) => {
+            return instances.sort((a, b) => {
                 const vA = a[order];
                 const vB = b[order];
 
@@ -76,7 +76,7 @@ export class DataSource {
                 }
             });
         } else {
-            return this.instances.sort((a, b) => {
+            return instances.sort((a, b) => {
                 const vA = a[order];
                 const vB = b[order];
 
