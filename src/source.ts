@@ -212,9 +212,9 @@ export class DataSource {
 
         const instances = this.applyProjection(this.getFilteredInstances(filter), [feature]);
 
-        const values = instances.map(v => {
+        const values = Array.from(new Set(instances.map(v => {
             return v[0] + "";
-        }).filter(f => {
+        }))).filter(f => {
             if (query) {
                 return f.toLowerCase().startsWith(query);
             } else {
