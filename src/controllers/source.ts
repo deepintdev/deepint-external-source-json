@@ -112,7 +112,7 @@ export class StatusController extends Controller {
     /**
      * @typedef QueryResponse
      * @property {Array.<SourceFeature>} features.required - Features
-     * @property {Array.<Array.<string>>} instances.required - Instances
+     * @property {Array.<object>} instances.required - Instances
      */
 
     /**
