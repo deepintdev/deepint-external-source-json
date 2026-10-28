@@ -1,7 +1,7 @@
 {
   "name": "deepint-external-source-json",
-  "version": "1.0.0",
-  "description": "Static JSON external source for Deep Intelligence",
+  "version": "1.0.1",
+  "description": "Static JSON external source for AIR-Core",
   "main": "dist/index.js",
   "scripts": {
     "watch": "npm run watch:ts",
