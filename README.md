@@ -1,6 +1,8 @@
 # AIR-Core External source: JSON file
 
-This is an example external source for [AIR-Core](https://app.air-core.io) (formerly Deep Intelligence), intended for testing. It takes the data from a JSON file.
+This is an example external source for [AIR-Core](https://app.air-core.io), intended for testing. It takes the data from a JSON file.
+
+AIR-Core is the data and AI platform maintained by [AIR Institute](https://air-institute.com).
 
 ## Installation
 
